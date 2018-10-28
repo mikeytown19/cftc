@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='container'>
         <div className='content has-text-centered'>
           <p>
-            {config.copyright}
+            Crossfit the club
           </p>
         </div>
       </div>

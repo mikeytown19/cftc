@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
+import Logo from '../img/main-logo.svg'
 
 export const HomePageTemplate = ({
   title,
@@ -21,21 +22,25 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-primary is-bold'>
-      <div className='hero-body'>
-        <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title'>
-                  {title}
-                </h1>
-              </div>
-            </div>
+    <div className="bg-home">
+      <section className='section is-bold'>
+        <div className='flex-center'>
+          <img src={Logo} alt='' className="main-logo"/>
+
+          <p className='color-white font-large text-center'>CROSSFIT THE CLUB</p>
+          <div>
+              <a
+                className='button is-white is-outlined margin-right' to='/contact'>Explore
+              </a >
+              <a
+                className='button is-white is-outlined' to='/contact'>Sign Up
+              </a >
+
+
           </div>
         </div>
-      </div>
     </section>
+    </div>
     <section className='section section--gradient'>
       <div className='container'>
 

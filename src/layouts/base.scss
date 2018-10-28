@@ -1,0 +1,197 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+$white: #fff;
+$primary: #292F36;
+$secondary: #B5C2B7;
+$third: #D26755;
+$fourth: #7C90A0;
+$fith: #586994;
+
+$info: $secondary;
+$success: $third;
+$warning: $fourth;
+$danger: $fith;
+
+$font-size: 15;
+
+//// define global padding ////
+$padding: (
+  desktop: (
+    large: 80px,
+    medium: 50px,
+    small: 30px
+  ),
+  tablet: (
+    large: 60px,
+    medium: 40px,
+    small: 30px
+  ),
+  mobile: (
+    large: 40px,
+    medium: 20px,
+    small: 20px
+  )
+);
+
+@function em($pixels, $context: $font-size) {
+  @return #{$pixels / $context}em;
+}
+
+html, body {
+  font-family: 'Timmana', sans-serif !important;
+  // headers
+  .footer {
+    background-color: $primary;
+  }
+
+
+  p {
+    padding-bottom: 14px;
+
+    &.title {
+      margin-bottom: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  ul {
+    padding-left: 14px;
+    li {
+      color: $primary;
+      padding-bottom: 5px;
+      list-style-type: circle;
+    }
+  }
+
+}
+
+
+
+.margin-right {
+  margin-right: 15px;
+}
+
+.color-white {
+  color: $white;
+}
+
+.font-large {
+  font-size: 18px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  &.color-white {
+    color: $white;
+  }
+
+  &.text-center {
+    text-align: center;
+  }
+}
+
+.main-logo {
+  margin-bottom: 30px;
+}
+
+.background-red {
+  background-color: $third;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: none;
+}
+
+.navbar-container {
+  border-bottom: lightfith solid 0.1vmin;
+}
+
+.navbar-item {
+  img {
+    &.nav-image-logo {
+      max-height: 4rem;
+    }
+  }
+}
+
+.button.is-outlined {
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+
+.hero {
+  margin-top: 77px;
+}
+
+.columns, .container {
+  padding: 0px 10px;
+  max-width: 1200px;
+  margin: auto !important;
+}
+
+.bg-home {
+  background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.6)), url('../img/bg-hero.jpg');
+  min-height: 91vh;
+  background-size: cover;
+  background-position: 50% 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(70%);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.social-media-icons {
+  margin: 0 5px;
+}
+
+.message {
+  height: 100%;
+
+  &.message.is-warning .message-body {
+      border-color: #fdf7f7;
+  }
+}
+
+.tools {
+  max-height: 600px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .img-bottom-small {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .navbar {
+    border-bottom: lightfith solid 0.1vmin;
+  }
+
+  .navbar-item img.nav-image-logo {
+    max-height: 5rem;
+    }
+}
+
+@import "~bulma";
+
