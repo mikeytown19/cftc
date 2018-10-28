@@ -17,4 +17,5 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
 ## TODO
 - Pagination for Blog (gatsby-paginate)
+
 - Search (@andrew-codes/gatsby-plugin-elasticlunr-search)
