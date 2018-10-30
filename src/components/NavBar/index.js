@@ -11,7 +11,7 @@ const NavBar = () => {
       <nav className='navbar' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item'>
-            <img className='nav-image-logo' src={NavLogo} alt='Nav logo image' />
+            <img className='nav-image-logo' style={{height: 2+'em'}} src={NavLogo} alt='Nav logo image' />
           </Link>
           <button className='button navbar-burger' data-target='navMenu'>
             <span />
