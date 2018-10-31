@@ -10,17 +10,14 @@ description: >-
 offerings:
   blurbs:
     - image: /img/cf3.png
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+      text: >-
+        We train anyone and everyone willing, at any fitness level and any
+        background. We want the same end goal as you. To make you stronger and
+        healthier, which will inevitably lead to a happier life. Our coaches are
+        well trained and educated in many areas of physical fitness and will
+        help you along the way. Need nutritional guidance? We’ve got it! Want
+        help understanding technique and proper form? We will do that! Simply
+        want to be stronger, faster, and in better shape… That’s our specialty.
     - image: /img/cf1.png
       text: >
         Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi.
