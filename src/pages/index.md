@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-title: Gatsby Starter Business
+title: Crossfit the Club
 heading: 'Where we started. '
 description: >-
   CrossFit The Club was founded in 2009 and was one of the first CrossFit boxes
