@@ -41,15 +41,16 @@ export const HomePageTemplate = ({
         </div>
     </section>
     </div>
-    <section className='section section--gradient'>
+
       <div className='container'>
 
-        <div className='section'>
+        <div className=''>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='content'>
                 <div>
-                  <h3 className='has-text-weight-semibold is-size-2'>
+                  <h3 className='has-text-weight-semibold is-size-2' style={{marginTop: 50+'px'}}>
+
                     {heading}
                   </h3>
                   <p>{description}</p>
@@ -62,7 +63,7 @@ export const HomePageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+
   </div>
 )
 
