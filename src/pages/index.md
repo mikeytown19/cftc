@@ -1,10 +1,12 @@
 ---
 templateKey: home-page
 title: Gatsby Starter Business
-heading: Lorem ipsum dolor sit amet
+heading: 'Where we started. '
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+  CrossFit The Club was founded in 2009 and was one of the first CrossFit boxes
+  to open in Utah. We have a large facility complete with massive pullup rigs,
+  olympic lifting equipment, and much much more. We also incorporate Speed &
+  Agility Training by Parisi to enhance our members athletic abilities.
 offerings:
   blurbs:
     - image: /img/cf3.png
