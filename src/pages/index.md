@@ -19,7 +19,7 @@ offerings:
         non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
         ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
         interdum, varius nibh eu, efficitur metus.
-    - image: /img/cf3.png
+    - image: /img/cf1.png
       text: >
         Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi.
         Nam  ipsum nulla, dapibus eu mi non, commodo commodo sapien.
