@@ -149,6 +149,22 @@ html, body {
   filter: grayscale(70%);
 }
 
+
+.bg-lindsay {
+  background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.6)), url('../img/lindsay.jpg');
+  min-height: 40vh;
+  background-size: cover;
+  background-position: 76% 62%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(70%);
+  color: #fff;
+  border-top: #fff solid 3px;
+  background-repeat: no-repeat;
+}
+
+
 .flex-center {
   display: flex;
   justify-content: center;

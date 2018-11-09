@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import Link from 'gatsby-link'
-import NavLogo from './../../img/nav-img.png'
+import NavLogo from './../../img/nav-img.jpg'
 
 const NavBar = () => {
   return (
