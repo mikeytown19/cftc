@@ -164,12 +164,20 @@ html, body {
   background-repeat: no-repeat;
 }
 
-
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.columns {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .btn {

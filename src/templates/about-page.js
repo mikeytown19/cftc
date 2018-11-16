@@ -4,7 +4,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Content, {HTMLContent} from '../components/Content'
+import Content from '../components/Content'
+import Icon1 from '../img//icons/icon1.svg'
 
 export const AboutPageTemplate = ({title, content, contentComponent}) => {
   const PageContent = contentComponent || Content
@@ -30,8 +31,14 @@ export const AboutPageTemplate = ({title, content, contentComponent}) => {
         <div className='container'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <PageContent className='content' content={content} />
+              <div className='section'> poop
+                <PageContent
+                className='content'
+                content={content}
+                size1='is-size-6'
+                size2='is-size-6'
+                imgSrc={Icon1}
+                />
               </div>
             </div>
           </div>
@@ -57,7 +64,7 @@ const AboutPage = ({data}) => {
         <meta name='description' content={post.frontmatter.meta_description} />
       </Helmet>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
+        contentComponent={Content}
         title={post.frontmatter.title}
         content={post.html}
       />

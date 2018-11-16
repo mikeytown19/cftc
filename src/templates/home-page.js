@@ -8,6 +8,7 @@ import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
 import Logo from '../img/main-logo.png'
 import NavImg from '../img/nav-img.jpg'
+import Icon1 from '../img//icons/icon1.svg'
 
 export const HomePageTemplate = ({
   title,
@@ -96,16 +97,6 @@ export const HomePageTemplate = ({
         </div>
     </div>
 
-
-
-      <div className='container'>
-
-        <div className=''>
-          <div className='columns'>
-
-          </div>
-        </div>
-      </div>
 
   </div>
 )
