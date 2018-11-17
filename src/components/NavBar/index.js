@@ -4,7 +4,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavLogo from './../../img/nav-img.jpg'
-import NavLogo2 from './../../img/cftc-dark.png'
+
 
 const NavBar = () => {
 

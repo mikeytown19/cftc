@@ -57,8 +57,8 @@ export const HomePageTemplate = ({
     </div>
 
 
-      <div className='container intro'>
-        <div className='section'>
+      <div className='section intro'>
+        <div className=''>
           <div className='columns'>
 
             <div className='column is-6'>
