@@ -36,8 +36,8 @@ const NavBar = () => {
             <a className='navbar-item' onClick={scrollTo} to='about'>
                           About
             </a>
-            <a className='navbar-item' onClick={scrollTo} to='Scheduale'>
-                          Scheduale
+            <a className='navbar-item' onClick={scrollTo} to='schedule'>
+                          Schedule
             </a>
             <a className='navbar-item' onClick={scrollTo} to='plans'>
                           Plans

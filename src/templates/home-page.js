@@ -111,7 +111,7 @@ export const HomePageTemplate = ({
         </div>
     </div>
 
-    <div className='section Scheduale'>
+    <div className='section schedule'>
 
     <h2 className="text-center is-size-2">Crossfit the Club Classes</h2>
     <br/>
