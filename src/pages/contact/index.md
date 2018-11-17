@@ -1,7 +1,7 @@
 ---
 templateKey: contact-page
-title: Contact Us
-subtitle: 'We''d Love To Help You, Feel Free To Drop A Mail'
+title: CROSSFIT THE CLUB TRAINERS
+subtitle: 'Get to know our Coaches. '
 contacts:
   - description: >-
       Lindsay has been involved in some sort of strength & conditioning his
