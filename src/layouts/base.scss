@@ -69,7 +69,14 @@ html, body {
 
 }
 
+.margin-bottom-small {
+  margin-bottom: 15px;
+}
 
+
+.margin-auto {
+  margin: auto;
+}
 
 .margin-right {
   margin-right: 15px;
@@ -164,6 +171,11 @@ html, body {
   background-repeat: no-repeat;
 }
 
+.icon-people {
+  max-width: 300px;
+}
+
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -202,6 +214,15 @@ html, body {
 
 
 @media screen and (max-width: 800px) {
+
+  .icon-people {
+    max-width: 200px;
+  }
+
+
+  .table-container {
+    overflow: scroll;
+  }
 
   .img-bottom-small {
     display: flex;

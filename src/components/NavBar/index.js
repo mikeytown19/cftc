@@ -4,7 +4,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavLogo from './../../img/nav-img.jpg'
-import Scroll from '../Scroll'
 
 const NavBar = () => {
   return (
@@ -47,8 +46,6 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-
-      <Scroll scrollTo="bg-home" />
     </div>
   )
 }
