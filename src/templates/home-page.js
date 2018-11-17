@@ -10,6 +10,19 @@ import Logo from '../img/main-logo.png'
 import NavImg from '../img/nav-img.jpg'
 import Icon1 from '../img//icons/icon1.svg'
 
+function handleClick(e) {
+  console.log(e.target)
+
+  const target = e.target.getAttribute('to');
+  const position = document.querySelector(`.${target}`).offsetTop;
+  console.log(position.offsetTop);
+  window.scrollTo({
+    top: position,
+    behavior: 'smooth',
+  })
+
+}
+
 export const HomePageTemplate = ({
   title,
   heading,
@@ -32,7 +45,7 @@ export const HomePageTemplate = ({
           <p className='color-white font-large text-center'>Parisi Speed School</p>
           <div>
               <a
-                className='button is-white is-outlined margin-right' to='/contact'>Explore
+                className='button is-white is-outlined margin-right' to='bg-lindsay'  onClick={handleClick}>Explore
               </a >
               <a
                 className='button is-white is-outlined' href="https://crossfittheclub.pike13.com/welcome" target="_blank">Sign Up

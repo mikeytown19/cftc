@@ -4,6 +4,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavLogo from './../../img/nav-img.jpg'
+import Scroll from '../Scroll'
 
 const NavBar = () => {
   return (
@@ -27,8 +28,8 @@ const NavBar = () => {
             <Link className='navbar-item' to='/pricing'>
                           Scheduale
             </Link>
-            <Link className='navbar-item' to='/blog'>
-                          Blog
+            <Link className='navbar-item' to='/contact'>
+                          Coaches
             </Link>
           </div>
           <div className='navbar-end'>
@@ -46,6 +47,8 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+
+      <Scroll scrollTo="bg-home" />
     </div>
   )
 }
