@@ -97,6 +97,10 @@ export const HomePageTemplate = ({
         </div>
     </div>
 
+    <div>
+          <Testimonials testimonials={testimonials} />
+    </div>
+
 
   </div>
 )

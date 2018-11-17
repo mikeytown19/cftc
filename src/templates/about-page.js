@@ -5,10 +5,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Content, {HTMLContent} from '../components/Content'
-import Icon1 from '../img//icons/icon1.svg'
 
 export const AboutPageTemplate = ({title, content, contentComponent}) => {
-  const PageContent = contentComponent || HTMLContent
+  const PageContent = contentComponent || Content
 
   return (
     <div>
@@ -32,7 +31,7 @@ export const AboutPageTemplate = ({title, content, contentComponent}) => {
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='section'>
-                <PageContent className='content' content={content}/>
+                <PageContent className='content' content={content} />
               </div>
             </div>
           </div>
