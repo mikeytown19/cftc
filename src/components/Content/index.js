@@ -8,11 +8,11 @@ export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 
-const Content1 = ({ content, className }) => (
-  <div className="poop">{content} ass</div>
+const Content = ({ content, className }) => (
+  <div className={className}>{content}</div>
 )
 
-const Content = ({ content, size1, size2, imgSrc, className }) => (
+const Content1 = ({ content, size1, size2, imgSrc, className }) => (
   <div className={className + ' ' + 'columns'}>
   <div className={size1 + ' column`' }>
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
@@ -30,10 +30,7 @@ const Content = ({ content, size1, size2, imgSrc, className }) => (
 
 Content.propTypes = {
   content: PropTypes.string,
-  className: PropTypes.string,
-  size1: PropTypes.string,
-  size2: PropTypes.string,
-  imgSrc: PropTypes.string,
+  className: PropTypes.string
 }
 
 HTMLContent.propTypes = Content.propTypes
