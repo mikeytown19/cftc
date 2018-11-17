@@ -67,11 +67,11 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Home | Gatsby Starter Business
+meta_title: Crossfit the Club | Home
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  CrossFit The Club was founded in 2009 and was one of the first CrossFit boxes
+  to open in Utah. We have a large facility complete with massive pullup rigs,
+  olympic lifting equipment, and much much more. We also incorporate Speed &
+  Agility Training by Parisi to enhance our members athletic abilities.
 ---
 
