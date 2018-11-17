@@ -12,10 +12,15 @@ contacts:
       motivation, and coaching. Lindsay IS… CrossFit The Club.
     email: LINDSAY HASSELL
   - description: >-
-      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
-      dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit.
-    email: contact@lorem.com
+      Michael found CrossFit while looking for a change in his lifestyle. Not
+      only did he find what he was looking for, but he fell in love with it. His
+      dedication and hard work has more than paid off! He constantly trains and
+      strives to break personal records on a daily basis by utilizing his
+      Crossfit level 1 & 2 certifications as well as his Crossfit weightlifting
+      certification. His love of the CrossFit community keeps him continually
+      working to help others achieve their goals to become stronger, faster, and
+      healthier.
+    email: Michael Harvey
 meta_title: Contact Us | Gatsby Starter Business
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
