@@ -4,8 +4,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavLogo from './../../img/nav-img.jpg'
+import NavLogo2 from './../../img/cftc-dark.png'
 
 const NavBar = () => {
+
+  function scrollTo(e) {
+    const target = e.target.getAttribute('to');
+    const position = document.querySelector(`.${target}`).offsetTop;
+    window.scrollTo({
+      top: position,
+      behavior: 'smooth',
+    })
+
+  }
+
   return (
     <div className='navbar-container'>
       <nav className='navbar' aria-label='main navigation'>
@@ -21,25 +33,25 @@ const NavBar = () => {
         </div>
         <div className='navbar-menu' id='navMenu'>
           <div className='navbar-start'>
-            <Link className='navbar-item' to='/about'>
+            <a className='navbar-item' onClick={scrollTo} to='about'>
                           About
-            </Link>
-            <Link className='navbar-item' to='/pricing'>
+            </a>
+            <a className='navbar-item' onClick={scrollTo} to='Scheduale'>
                           Scheduale
-            </Link>
-            <Link className='navbar-item' to='/contact'>
-                          Coaches
-            </Link>
+            </a>
+            <a className='navbar-item' onClick={scrollTo} to='plans'>
+                          Plans
+            </a>
           </div>
           <div className='navbar-end'>
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
-                  <Link
+                  <a
                     className='button is-primary is-outlined'
-                    to='/blog'>
+                    to='contact' onClick={scrollTo}>
                                       Contact Us
-                  </Link>
+                  </a>
                 </p>
               </div>
             </div>

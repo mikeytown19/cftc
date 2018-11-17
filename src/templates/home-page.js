@@ -13,11 +13,8 @@ import Icon4 from '../img//icons/icon4.svg'
 import Icon2 from '../img//icons/icon2.svg'
 
 function scrollTo(e) {
-  console.log(e.target)
-
   const target = e.target.getAttribute('to');
   const position = document.querySelector(`.${target}`).offsetTop;
-  console.log(position.offsetTop);
   window.scrollTo({
     top: position,
     behavior: 'smooth',
@@ -93,7 +90,7 @@ export const HomePageTemplate = ({
         </div>
       </div>
 
-    <div className='bg-lindsay'>
+    <div className='bg-lindsay about'>
       <div className='container'>
           <div className='columns'>
               <div className='column is-7 is-offset-1'>
@@ -114,7 +111,7 @@ export const HomePageTemplate = ({
         </div>
     </div>
 
-    <div className='section'>
+    <div className='section Scheduale'>
 
     <h2 className="text-center is-size-2">Crossfit the Club Classes</h2>
     <br/>
@@ -265,7 +262,7 @@ export const HomePageTemplate = ({
 
     </div>
 
-          <div className=''>
+          <div className='plans'>
         <div className='container'>
           <div className='columns'>
 
@@ -319,6 +316,71 @@ export const HomePageTemplate = ({
           </div>
         </div>
       </div>
+
+      <div className='contact'>
+      <div className="section">
+      <section className="columns">
+
+
+        <div className="column is-6">
+        <p className="title">Contact Us</p>
+        <p>So you’re interested in changing your lifestyle to a healthier and more fulfilling one. Well you’ve come to the right place. Take a moment to fill out the form below and one of our coaches will be in contact with you soon. Thank you!</p>
+        <br/>
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="bot-field" />
+         <div className="field">
+          <label className="label" for="name">Name</label>
+          <div className="control">
+            <input className="input" type="text"id="name" name="name" placeholder="Full Name" />
+          </div>
+        </div>
+
+
+        <div className="field">
+          <label className="label" for="email">Email</label>
+          <div className="control">
+            <input className="input" type="email" name="email"id="email"placeholder="Email" />
+          </div>
+        </div>
+
+
+        <div className="field">
+          <label className="label" for="number">Number</label>
+          <div className="control">
+            <input className="input" type="tel" id="number" name="number"placeholder="Phone Number" />
+          </div>
+        </div>
+
+        <div className="field">
+          <label className="label" for="message">Message</label>
+          <div className="control">
+            <textarea className="textarea" id="message" name="message"placeholder="Write us"></textarea>
+          </div>
+        </div>
+
+        <div className="field is-grouped">
+          <div className="control">
+            <button type="submit" className="button is-primary">Submit</button>
+          </div>
+          <div className="control">
+            <button className="button is-text">Cancel</button>
+          </div>
+        </div>
+
+
+      </form>
+
+        </div>
+
+
+      </section>
+
+
+      </div>
+
+      </div>
+
+
 
 
   </div>

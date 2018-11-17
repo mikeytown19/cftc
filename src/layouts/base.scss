@@ -43,6 +43,12 @@ html, body {
   // headers
   .footer {
     background-color: $primary;
+
+    a {
+      &:hover {
+        color: $third;
+      }
+    }
   }
 
 
