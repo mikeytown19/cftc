@@ -231,6 +231,41 @@ export const HomePageTemplate = ({
         </div>
     </div>
 
+
+    <div className='margin-bottom-small bg-turf'>
+      <div className='container'>
+        <div className='columns'>
+          <div className='column is-8'>
+            <div className='content'>
+              <div>
+                <br/>
+                <h3 className='has-text-weight-semibold is-size-2 color-white ' style={{color: 'white'}}>
+                  Parisi Speed School
+                </h3>
+                <p>Parisi has been training teams and individuals for over 20 years. Our proven methods has help teams and individuals of all sports improve their game, increase self confidence and compete at the highest level. Sessions types are made up of Linear Speed Sessions, Change of Direction Sessions, and Total Body Strength Sessions..</p>
+
+                <br/>
+                <h4 className="has-text-white">Sessions</h4>
+                <p>There are 3 different types of sessions that make up the different programs at the Parisi Speed School. Depending on your athletes particular needs and the program you select from the list, he or she will be recommended to take part in certain types of training sessions. When your athlete is in the facility performing a specific session listed below, the focus described will be what they work on that day.</p>
+                <ul className="color-white has-text-white">
+                  <li className="has-text-white">Linear Speed Sessions: The main portion of these sessions focus on the signature Parisi straight ahead acceleration and top speed running techniques. These sessions all begin with the dynamic warm-up and conclude with a cool down.</li>
+                  <li className="has-text-white">Change Of Direction: the main portion of these sessions focus on agility and on athletes ability to move in any direction quickly. These sessions all begin with a dynamic warm-up and conclude with a cool down.</li>
+                  <li className="has-text-white">Total Body Strength Sessions: These sessions focus on a dynamic warm-up along with a Strength Training Program. This combination of total body strength and flexibility is critical to providing a faster, stronger, less injury prone athlete.</li>
+                </ul>
+                <br/>
+
+
+                <a className='button is-white is-outlined' href="https://crossfittheclub.pike13.com/welcome" target="_blank">Get Started</a>
+                <br/>
+                <br/>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+
     <div className='margin-bottom-small'>
 
           <div className='container'>
