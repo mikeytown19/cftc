@@ -195,10 +195,10 @@ export const HomePageTemplate = ({
         </tr>
         <tr>
           <th>4:30PM</th>
-          <td></td>
-          <td>Parisi</td>
-          <td></td>
-          <td>Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
           <td></td>
           <td></td>
           <td></td>
@@ -214,11 +214,31 @@ export const HomePageTemplate = ({
           <td></td>
         </tr>
         <tr>
+          <th>5:30PM</th>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
           <th>6:00PM</th>
           <td>Crossfit</td>
           <td>Crossfit</td>
           <td>Crossfit</td>
-          <td>Crossfit</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>6:30PM</th>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
+          <td className="has-text-danger">Parisi</td>
           <td></td>
           <td></td>
           <td></td>
