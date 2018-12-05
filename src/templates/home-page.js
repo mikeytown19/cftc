@@ -382,7 +382,10 @@ export const HomePageTemplate = ({
         <p>So you’re interested in changing your lifestyle to a healthier and more fulfilling one. Well you’ve come to the right place. Take a moment to fill out the form below and one of our coaches will be in contact with you soon. Thank you!</p>
         <br/>
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="bot-field" />
+        <div data-netlify-recaptcha></div>
+        <p className='hidden'>
+          <input type="hidden" name="bot-field" />
+        </p>
          <div className="field">
           <label className="label" for="name">Name</label>
           <div className="control">
@@ -414,6 +417,7 @@ export const HomePageTemplate = ({
         </div>
 
         <div className="field is-grouped">
+
           <div className="control">
             <button type="submit" className="button is-primary">Submit</button>
           </div>
