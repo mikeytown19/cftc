@@ -44,7 +44,7 @@ export const HomePageTemplate = ({
           <p className='color-white font-large text-center'>Parisi Speed School</p>
           <div>
               <a
-                className='button is-white is-outlined margin-right' to='intro'  onClick={scrollTo}>Explore
+                className='button is-white is-outlined margin-right' href="https://crossfittheclub.pike13.com/welcome" target="_blank">Classes
               </a >
               <a
                 className='button is-white is-outlined' href="https://crossfittheclub.pike13.com/welcome" target="_blank">Sign Up
