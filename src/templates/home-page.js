@@ -107,7 +107,7 @@ export const HomePageTemplate = ({
                 <ul>
                   <li className="has-text-white"> Start date: Tuesday January 15th</li>
                   <li className="has-text-white"> End date: Tuesday February 19th</li>
-                  <li className="has-text-white"> Cost: $60</li>
+                  <li className="has-text-white"> Cost: $50</li>
                   <li className="has-text-white"> 1 top male & 1 top female will receive a cash prize. </li>
                   <li className="has-text-white"> We will have plenty of opportunities to win great stuff throughout the challenge.  Including a chance to win a 12 week                   one-on-one nutrition coaching plan to be used anytime throughout 2019.                  </li>
                 </ul>
