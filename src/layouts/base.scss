@@ -191,6 +191,20 @@ html, body {
   background-repeat: no-repeat;
 }
 
+.bg-greens {
+  background:linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.8)), url('../img/greens.jpg');
+  min-height: 40vh;
+  background-size: cover;
+  background-position: 76% 62%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(70%);
+  color: #fff;
+  border-top: #fff solid 3px;
+  background-repeat: no-repeat;
+}
+
 
 .icon-people {
   max-width: 300px;
