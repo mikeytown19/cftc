@@ -125,7 +125,7 @@ export const HomePageTemplate = ({
                   <p className='has-text-white'>Each week a new challenge that may involve nutrition, fitness or even well-being will be released.  Participants will also be educated along the way on proper nutrition. <br/> <br/> As a participant you will be given the option to follow macro-nutrient plan or just eat healthy approved foods for the 6 weeks. Both ways will require a weekly journal submission.  Details of that will be discussed at the challenge meeting.</p>
                   <h4 className='has-text-white'>OTHER IMPORTANT DATES:</h4>
                   <ul>
-                    <li className='has-text-white'> <u>Wednesday January 10th</u> - Challenge meeting to go over EVERYTHING.  Starts @ 7:00 p.m. at CFTC.  Starting weight & measurements will be taken after the meeting.</li>
+                    <li className='has-text-white'> <u>Wednesday January 9th</u> - Challenge meeting to go over EVERYTHING.  Starts @ 7:00 p.m. at CFTC.  Starting weight & measurements will be taken after the meeting.</li>
                     <li className="has-text-white"> <u>Tuesday February 19th</u> - End of challenge weigh-ins & measurements.  7:00 p.m. at CFTC.</li>
                     <li className="has-text-white"><u>Friday February 22nd</u> - Challenge winners will be announced at our first Friday Night Lights & start of the 2019 Crossfit Open.</li>
                     <br/>
