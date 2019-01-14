@@ -177,6 +177,12 @@ html, body {
   background-repeat: no-repeat;
 }
 
+iframe {
+  margin: auto;
+  width: auto;
+  height: 500px;
+}
+
 .bg-turf {
   background:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.8)), url('../img/turf.jpg');
   min-height: 40vh;

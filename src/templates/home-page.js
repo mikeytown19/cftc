@@ -442,7 +442,9 @@ export const HomePageTemplate = ({
 
         <div className="column is-6">
         <p className="title">Contact Us</p>
+
         <p>So you’re interested in changing your lifestyle to a healthier and more fulfilling one. Well you’ve come to the right place. Take a moment to fill out the form below and one of our coaches will be in contact with you soon. Thank you!</p>
+        <a href="https://goo.gl/maps/7CAennKKhGE2" target="_blank"><strong><u>6671 South 2500 East, <br/> Unit A, Uintah 84403 Utah</u> </strong> </a>
         <br/>
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <div data-netlify-recaptcha></div>
