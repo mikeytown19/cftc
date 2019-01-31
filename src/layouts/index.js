@@ -15,7 +15,9 @@ const TemplateWrapper = ({children}) => (
     <Helmet>
       <title>{config.siteTitle}</title>
       <meta name='description' content={config.siteDescription} />
+      <meta name="google-site-verification" content="6agN0BvNwcpnXFgkIzJcOylSpNX1ZuD356Yr5GLIYLk" />
     </Helmet>
+
     <NavBar />
     <div>{children()}</div>
     <Footer />
