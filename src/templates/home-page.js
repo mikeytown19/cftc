@@ -223,6 +223,17 @@ export const HomePageTemplate = ({
           <td>Crossfit</td>
           <td></td>
         </tr>
+
+        <tr>
+          <th>8:00AM</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Crossfit</td>
+          <td></td>
+        </tr>
         <tr>
           <th>9:00AM</th>
           <td>Crossfit</td>
@@ -240,7 +251,7 @@ export const HomePageTemplate = ({
           <td>Crossfit</td>
           <td></td>
           <td>Crossfit</td>
-          <td>Crossfit</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
