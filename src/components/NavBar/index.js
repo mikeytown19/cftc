@@ -43,9 +43,7 @@ const NavBar = () => {
                           Plans
             </a>
 
-            <a className='navbar-item' onClick={scrollTo} to='nutrition'>
-                          Nutrition
-            </a>
+
           </div>
           <div className='navbar-end'>
             <div className='navbar-item'>

@@ -90,64 +90,7 @@ export const HomePageTemplate = ({
         </div>
       </div>
 
-      <div className='margin-bottom-small nutrition bg-greens'>
-      <div className='container'>
-        <div className='columns'>
-          <div className='column is-8'>
-            <div className='content'>
-              <div>
-                <br/>
-                <h3 className='has-text-weight-semibold is-size-2 color-white ' style={{color: 'white'}}>
-                LEAN IN 2019 NUTRITION CHALLENGE
-                </h3>
-                <p>The holiday's are officially over!  That means it is time to get on those 2019 nutrition goals.  What better way to get started than with a community challenge.  </p>
 
-                <br/>
-                <h4 className="has-text-white">Here are the details:</h4>
-                <ul>
-                  <li className="has-text-white"> Start date: Tuesday January 15th</li>
-                  <li className="has-text-white"> End date: Tuesday February 19th</li>
-                  <li className="has-text-white"> Cost: $50</li>
-                  <li className="has-text-white"> 1 top male & 1 top female will receive a cash prize. </li>
-                  <li className="has-text-white"> We will have plenty of opportunities to win great stuff throughout the challenge.  Including a chance to win a 12 week                   one-on-one nutrition coaching plan to be used anytime throughout 2019.                  </li>
-                </ul>
-
-                <h4 className="has-text-white"><u>What are the RULES?</u>  <br/>
-                  NO sugar! <br/>
-                  NO processed foods! <br/>
-                  NO alcohol or soda!</h4>
-                  <p className='has-text-white'>In addition to these rules participants will be asked to do the following as part of a point system that will contribute to your eligibility to win the challenge:</p>
-                  <ul>
-                    <li className="has-text-white">Get a minimum of 7 hours of sleep each night</li>
-                    <li className="has-text-white">Eight to ten 8 oz glasses of water daily</li>
-                    <li className="has-text-white">Weekly submission of a food journal & score sheet, which will include a weekly check-in of body weight from home.</li>
-                  </ul>
-                  <p className='has-text-white'>Each week a new challenge that may involve nutrition, fitness or even well-being will be released.  Participants will also be educated along the way on proper nutrition. <br/> <br/> As a participant you will be given the option to follow macro-nutrient plan or just eat healthy approved foods for the 6 weeks. Both ways will require a weekly journal submission.  Details of that will be discussed at the challenge meeting.</p>
-                  <h4 className='has-text-white'>OTHER IMPORTANT DATES:</h4>
-                  <ul>
-                    <li className='has-text-white'> <u>Wednesday January 9th</u> - Challenge meeting to go over EVERYTHING.  Starts @ 7:00 p.m. at CFTC.  Starting weight & measurements will be taken after the meeting.</li>
-                    <li className="has-text-white"> <u>Tuesday February 19th</u> - End of challenge weigh-ins & measurements.  7:00 p.m. at CFTC.</li>
-                    <li className="has-text-white"><u>Friday February 22nd</u> - Challenge winners will be announced at our first Friday Night Lights & start of the 2019 Crossfit Open.</li>
-                    <br/>
-
-                    <h4 className="has-text-white">Are you ready?  If you are in simply click on the link below & complete the assessment.  Instructions for payments will be given there.  </h4>
-                    <a href='https://goo.gl/forms/DZHjX0NT2OPo1zhv1'><u>https://goo.gl/forms/DZHjX0NT2OPo1zhv1</u></a>
-                    <br/>
-                    <h3 className='has-text-white'>Today is the day to make it happen!!  Time to get leaner, happier, & healthier.  </h3>
-                    <p>Email any inquiries or questions to Brooke: <a href='mailto:cftcdiet@gmail.com'><u>cftcdiet@gmail.com</u></a> </p>
-
-
-
-                  </ul>
-                <br/>
-                <br/>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-   </div>
 
 
     <div className='bg-lindsay about'>
