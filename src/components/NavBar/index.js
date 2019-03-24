@@ -42,6 +42,9 @@ const NavBar = () => {
             <a className='navbar-item' onClick={scrollTo} to='plans'>
                           Plans
             </a>
+            <a className='navbar-item' target="_blank" href="https://www.fullyamped.com/collections/crossfit-the-club">
+                          Store
+            </a>
 
 
           </div>
